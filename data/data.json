@@ -1,0 +1,502 @@
+[
+  {
+    "id": "1",
+    "word": "the",
+    "translation": "el / la"
+  },
+  {
+    "id": "2",
+    "word": "be",
+    "translation": "ser / estar"
+  },
+  {
+    "id": "3",
+    "word": "and",
+    "translation": "y"
+  },
+  {
+    "id": "4",
+    "word": "of",
+    "translation": "de"
+  },
+  {
+    "id": "5",
+    "word": "a",
+    "translation": "un / una"
+  },
+  {
+    "id": "6",
+    "word": "in",
+    "translation": "en"
+  },
+  {
+    "id": "7",
+    "word": "to",
+    "translation": "a / hacia"
+  },
+  {
+    "id": "8",
+    "word": "have",
+    "translation": "tener"
+  },
+  {
+    "id": "9",
+    "word": "it",
+    "translation": "eso / ello"
+  },
+  {
+    "id": "10",
+    "word": "that",
+    "translation": "ese / esa / aquello"
+  },
+  {
+    "id": "11",
+    "word": "for",
+    "translation": "para"
+  },
+  {
+    "id": "12",
+    "word": "you",
+    "translation": "tú / usted"
+  },
+  {
+    "id": "13",
+    "word": "he",
+    "translation": "él"
+  },
+  {
+    "id": "14",
+    "word": "with",
+    "translation": "con"
+  },
+  {
+    "id": "15",
+    "word": "on",
+    "translation": "en / sobre"
+  },
+  {
+    "id": "16",
+    "word": "do",
+    "translation": "hacer"
+  },
+  {
+    "id": "17",
+    "word": "at",
+    "translation": "en / a"
+  },
+  {
+    "id": "18",
+    "word": "by",
+    "translation": "por"
+  },
+  {
+    "id": "19",
+    "word": "not",
+    "translation": "no"
+  },
+  {
+    "id": "20",
+    "word": "this",
+    "translation": "este / esta"
+  },
+  {
+    "id": "21",
+    "word": "but",
+    "translation": "pero"
+  },
+  {
+    "id": "22",
+    "word": "from",
+    "translation": "de / desde"
+  },
+  {
+    "id": "23",
+    "word": "or",
+    "translation": "o"
+  },
+  {
+    "id": "24",
+    "word": "which",
+    "translation": "cuál / que"
+  },
+  {
+    "id": "25",
+    "word": "say",
+    "translation": "decir"
+  },
+  {
+    "id": "26",
+    "word": "she",
+    "translation": "ella"
+  },
+  {
+    "id": "27",
+    "word": "he",
+    "translation": "él"
+  },
+  {
+    "id": "28",
+    "word": "an",
+    "translation": "un / una"
+  },
+  {
+    "id": "29",
+    "word": "will",
+    "translation": "will"
+  },
+  {
+    "id": "30",
+    "word": "my",
+    "translation": "mi"
+  },
+  {
+    "id": "31",
+    "word": "one",
+    "translation": "uno"
+  },
+  {
+    "id": "32",
+    "word": "all",
+    "translation": "todo / todos"
+  },
+  {
+    "id": "33",
+    "word": "would",
+    "translation": "would"
+  },
+  {
+    "id": "34",
+    "word": "there",
+    "translation": "ahí / allí"
+  },
+  {
+    "id": "35",
+    "word": "say",
+    "translation": "decir"
+  },
+  {
+    "id": "36",
+    "word": "who",
+    "translation": "quién"
+  },
+  {
+    "id": "37",
+    "word": "their",
+    "translation": "su / sus"
+  },
+  {
+    "id": "38",
+    "word": "if",
+    "translation": "si"
+  },
+  {
+    "id": "39",
+    "word": "get",
+    "translation": "obtener"
+  },
+  {
+    "id": "40",
+    "word": "she",
+    "translation": "ella"
+  },
+  {
+    "id": "41",
+    "word": "her",
+    "translation": "su / sus (de ella)"
+  },
+  {
+    "id": "42",
+    "word": "they",
+    "translation": "ellos / ellas"
+  },
+  {
+    "id": "43",
+    "word": "he",
+    "translation": "él"
+  },
+  {
+    "id": "44",
+    "word": "him",
+    "translation": "lo / le (a él)"
+  },
+  {
+    "id": "45",
+    "word": "no",
+    "translation": "no"
+  },
+  {
+    "id": "46",
+    "word": "out",
+    "translation": "fuera"
+  },
+  {
+    "id": "47",
+    "word": "up",
+    "translation": "arriba"
+  },
+  {
+    "id": "48",
+    "word": "about",
+    "translation": "acerca de"
+  },
+  {
+    "id": "49",
+    "word": "who",
+    "translation": "quién"
+  },
+  {
+    "id": "50",
+    "word": "get",
+    "translation": "obtener"
+  },
+  {
+    "id": "51",
+    "word": "go",
+    "translation": "ir"
+  },
+  {
+    "id": "52",
+    "word": "me",
+    "translation": "me / a mí"
+  },
+  {
+    "id": "53",
+    "word": "know",
+    "translation": "saber / conocer"
+  },
+  {
+    "id": "54",
+    "word": "take",
+    "translation": "tomar"
+  },
+  {
+    "id": "55",
+    "word": "them",
+    "translation": "los / las (a ellos / ellas)"
+  },
+  {
+    "id": "56",
+    "word": "like",
+    "translation": "gustar"
+  },
+  {
+    "id": "57",
+    "word": "then",
+    "translation": "entonces"
+  },
+  {
+    "id": "58",
+    "word": "now",
+    "translation": "ahora"
+  },
+  {
+    "id": "59",
+    "word": "look",
+    "translation": "mirar"
+  },
+  {
+    "id": "60",
+    "word": "only",
+    "translation": "sólo / solamente"
+  },
+  {
+    "id": "61",
+    "word": "come",
+    "translation": "venir"
+  },
+  {
+    "id": "62",
+    "word": "its",
+    "translation": "su / sus (de eso)"
+  },
+  {
+    "id": "63",
+    "word": "over",
+    "translation": "sobre"
+  },
+  {
+    "id": "64",
+    "word": "think",
+    "translation": "pensar"
+  },
+  {
+    "id": "65",
+    "word": "also",
+    "translation": "también"
+  },
+  {
+    "id": "66",
+    "word": "back",
+    "translation": "atrás"
+  },
+  {
+    "id": "67",
+    "word": "after",
+    "translation": "después de"
+  },
+  {
+    "id": "68",
+    "word": "use",
+    "translation": "usar"
+  },
+  {
+    "id": "69",
+    "word": "two",
+    "translation": "dos"
+  },
+  {
+    "id": "70",
+    "word": "how",
+    "translation": "cómo"
+  },
+  {
+    "id": "71",
+    "word": "our",
+    "translation": "nuestro / nuestra"
+  },
+  {
+    "id": "72",
+    "word": "work",
+    "translation": "trabajar"
+  },
+  {
+    "id": "73",
+    "word": "first",
+    "translation": "primero"
+  },
+  {
+    "id": "74",
+    "word": "well",
+    "translation": "bien"
+  },
+  {
+    "id": "75",
+    "word": "way",
+    "translation": "manera / camino"
+  },
+  {
+    "id": "76",
+    "word": "even",
+    "translation": "incluso"
+  },
+  {
+    "id": "77",
+    "word": "new",
+    "translation": "nuevo / nueva"
+  },
+  {
+    "id": "78",
+    "word": "want",
+    "translation": "querer"
+  },
+  {
+    "id": "79",
+    "word": "because",
+    "translation": "porque"
+  },
+  {
+    "id": "80",
+    "word": "any",
+    "translation": "cualquier"
+  },
+  {
+    "id": "81",
+    "word": "these",
+    "translation": "estos / estas"
+  },
+  {
+    "id": "82",
+    "word": "give",
+    "translation": "dar"
+  },
+  {
+    "id": "83",
+    "word": "day",
+    "translation": "día"
+  },
+  {
+    "id": "84",
+    "word": "most",
+    "translation": "la mayoría"
+  },
+  {
+    "id": "85",
+    "word": "us",
+    "translation": "nos / a nosotros"
+  },
+  {
+    "id": "86",
+    "word": "such",
+    "translation": "tal"
+  },
+  {
+    "id": "87",
+    "word": "here",
+    "translation": "aquí"
+  },
+  {
+    "id": "88",
+    "word": "where",
+    "translation": "dónde"
+  },
+  {
+    "id": "89",
+    "word": "through",
+    "translation": "a través de"
+  },
+  {
+    "id": "90",
+    "word": "much",
+    "translation": "mucho / mucha"
+  },
+  {
+    "id": "91",
+    "word": "before",
+    "translation": "antes de"
+  },
+  {
+    "id": "92",
+    "word": "same",
+    "translation": "mismo / misma"
+  },
+  {
+    "id": "93",
+    "word": "think",
+    "translation": "pensar"
+  },
+  {
+    "id": "94",
+    "word": "see",
+    "translation": "ver"
+  },
+  {
+    "id": "95",
+    "word": "come",
+    "translation": "venir"
+  },
+  {
+    "id": "96",
+    "word": "want",
+    "translation": "querer"
+  },
+  {
+    "id": "97",
+    "word": "look",
+    "translation": "mirar"
+  },
+  {
+    "id": "98",
+    "word": "use",
+    "translation": "usar"
+  },
+  {
+    "id": "99",
+    "word": "find",
+    "translation": "encontrar"
+  },
+  {
+    "id": "100",
+    "word": "give",
+    "translation": "dar"
+  }
+]
