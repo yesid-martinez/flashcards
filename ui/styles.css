@@ -42,7 +42,11 @@ body {
 }
 
 /* Do an horizontal flip when you move the mouse over the card container */
-.cardContainer:hover .card {
+/* .cardContainer:hover .card {
+  transform: rotateY(180deg);
+} */
+
+.flipped {
   transform: rotateY(180deg);
 }
 

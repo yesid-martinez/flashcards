@@ -6,7 +6,7 @@ const renderFlip = (isFlipped: boolean) => {
     cardElement?.classList.toggle('flipped', isFlipped);
 };
 
-const cardElement = document.getElementById('card');
+const cardElement = document.querySelector('.card');
 cardElement?.addEventListener('click', () => {
     isFlipped = !isFlipped;
     renderFlip(isFlipped);
@@ -26,13 +26,29 @@ const updateCardContent = () =>{
 };
 
 const nextCardBtn = document.getElementById('nextBtn');
+
 nextCardBtn?.addEventListener('click', () => {
+    const goToNextCard = () => {
+        currentIndex = (currentIndex + 1) % data.length;
+        updateCardContent();
+    };
+
+    if (!isFlipped) {
+        goToNextCard();
+        return;
+    }
+
+    const onTransitionEnd = (event: Event) => {
+        if (!(event instanceof TransitionEvent)) return;
+        if (event.propertyName !== 'transform') return;
+
+        cardElement?.removeEventListener('transitionend', onTransitionEnd);
+        goToNextCard();
+    };
+
     isFlipped = false;
     renderFlip(isFlipped);
-
-    currentIndex = (currentIndex - 1 + data.length) % data.length;
-
-    updateCardContent();
+    cardElement?.addEventListener('transitionend', onTransitionEnd);
 });
 
 updateCardContent();
