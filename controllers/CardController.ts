@@ -1,17 +1,31 @@
 import data from '../data/data.json' assert { type: 'json' };
 import { CardDeck } from '../domain';
 import { mapToCards } from '../domain/mappers/cardMapper';
+import { CardView } from '../ui/CardView';
 
 export class CardController {
-    init(): void {
-        try {
-            const cards = mapToCards(data);
-            const deck = new CardDeck(cards);
+    private deck: CardDeck;
+    private view: CardView;
 
-            console.log("Card deck initialized:", deck);
-        } catch (error) {
-            console.error('Failed to map data to cards:', error);
-            return;
-        }
+    constructor() {
+        const cards = mapToCards(data);
+        this.deck = new CardDeck(cards);
+        this.view = new CardView();
+    }
+
+    init(): void {
+        this.view.renderText(this.deck.current());
+
+        this.view.onCardClick(() => {
+            this.view.flip();
+        });
+
+        this.view.onNextClick(() => {
+            if (this.view.isCardFlipped()) {
+                this.view.resetFlip();
+            }
+            this.deck.next();
+            this.view.renderText(this.deck.current());
+        });
     }
 }
