@@ -1,23 +1,31 @@
 export class Card {
     private readonly id: string;
-    private readonly word: string;
-    private readonly translation: string;
+    private readonly text: string;
+    private readonly meanings: string[];
+    private readonly notes: string[];
+    private readonly examples: string[];
 
-    constructor(id: string, word: string, translation: string) {
+    constructor(id: string, text: string, meanings: string[], notes: string[], examples: string[]) {
         this.id = id;
-        this.word = word;
-        this.translation = translation;
+        this.text = text;
+        this.meanings = meanings;
+        this.notes = notes;
+        this.examples = examples;
     }
 
     getId = (): string => {
         return this.id;
     };
 
-    getWord = (): string => {
-        return this.word;
+    getText = (): string => {
+        return this.text;
     };
     
-    getTranslation = (): string => {
-        return this.translation;
+    getMeanings = (): string[] => {
+        return this.meanings ?? [];
     };
-}
+
+    getNotes = (): string[] => {
+        return this.notes ?? [];
+    };
+}   

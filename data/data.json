@@ -1,502 +1,1647 @@
 [
   {
     "id": "1",
-    "word": "the",
-    "translation": "el / la"
+    "text": "Intend",
+    "meanings": [
+      "Tener intención",
+      "Querer",
+      "Proponerse"
+    ],
+    "notes": [],
+    "examples": [
+      "I intend to finish my work",
+      "The program is intended to help students",
+      "No offence was intended",
+      "I don’t intend to be selfish",
+      "I intend to help",
+      "I intended to visit"
+    ]
   },
   {
     "id": "2",
-    "word": "be",
-    "translation": "ser / estar"
+    "text": "Payoff",
+    "meanings": [
+      "Pagar",
+      "Dar buenos resultados",
+      "Compensar un esfuerzo, inversión o riesgo",
+      "Desenlace"
+    ],
+    "notes": [],
+    "examples": [
+      "To pay off a loan",
+      "To pay off a mortgage",
+      "To pay off debts",
+      "We should be able to pay off the debt within two years",
+      "All her hard work paid off",
+      "The payoff was that they both ended up in jail"
+    ]
   },
   {
     "id": "3",
-    "word": "and",
-    "translation": "y"
+    "text": "Statement",
+    "meanings": [
+      "Declaración",
+      "Afirmación",
+      "Extracto (Bancario)"
+    ],
+    "notes": [],
+    "examples": [
+      "He made a statement to the press",
+      "This statement is hard to refute",
+      "She issued a statement denying the allegations",
+      "I received my bank statement yesterday"
+    ]
   },
   {
     "id": "4",
-    "word": "of",
-    "translation": "de"
+    "text": "Within",
+    "meanings": [
+      "Dentro de",
+      "En"
+    ],
+    "notes": [
+      "Usas within cuando te refieres a límites, ya sean de tiempo, espacio o condiciones, y no al interior físico de algo."
+    ],
+    "examples": [
+      "Within the box",
+      "Within the city",
+      "Within an hour",
+      "Within the next week",
+      "The book is within my reach",
+      "... within the framework of the project",
+      "We'll be back within an hour",
+      "ou must finish the test within 30 minutes"
+    ]
   },
   {
     "id": "5",
-    "word": "a",
-    "translation": "un / una"
+    "text": "Overwhelmed",
+    "meanings": [
+      "Desbordado",
+      "Sobrecargado",
+      "Abrumado",
+      "Inundado"
+    ],
+    "notes": [],
+    "examples": [
+      "I feel overwhelmed with work",
+      "She was overwhelmed by the news",
+      "The team was overwhelmed by the opponent's skill",
+      "The company overwhelmed the market with its products",
+      "The city was overwhelmed by the floodwaters",
+      "The post office is within 5 meters of my house",
+      "Ask for anything, within reason."
+    ]
   },
   {
     "id": "6",
-    "word": "in",
-    "translation": "en"
+    "text": "Flaw",
+    "meanings": [
+      "Defecto",
+      "Fallo",
+      "Imperfección",
+      "Desperfecto"
+    ],
+    "notes": [],
+    "examples": [
+      "The diamond had a small flaw",
+      "There is a flaw in your argument",
+      "The design has several flaws",
+      "A design flaw",
+      "The plan was flawed from the start"
+    ]
   },
   {
     "id": "7",
-    "word": "to",
-    "translation": "a / hacia"
+    "text": "Spotting",
+    "meanings": [
+      "Detección",
+      "Observación",
+      "Avistamiento"
+    ],
+    "notes": [],
+    "examples": [
+      "Intrusion spotting",
+      "Anomaly spotting",
+      "Spotting a mistake",
+      "Spotting a trend",
+      "She has a talent for spotting opportunities",
+      "He was spotted at the event",
+      "The bird watcher is good at spotting rare species"
+    ]
   },
   {
     "id": "8",
-    "word": "have",
-    "translation": "tener"
+    "text": "Threshold",
+    "meanings": [
+      "Umbral"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "9",
-    "word": "it",
-    "translation": "eso / ello"
+    "text": "You might still be wondering",
+    "meanings": [
+      "Puede que todavía te estés preguntando"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "10",
-    "word": "that",
-    "translation": "ese / esa / aquello"
+    "text": "Never quite reaching it",
+    "meanings": [],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "11",
-    "word": "for",
-    "translation": "para"
+    "text": "Nuance",
+    "meanings": [
+      "Matiz"
+    ],
+    "notes": [
+      "Often refers to subtle differences, including colloquialisms"
+    ],
+    "examples": []
   },
   {
     "id": "12",
-    "word": "you",
-    "translation": "tú / usted"
+    "text": "To strike",
+    "meanings": [
+      "Golpear",
+      "Atacar"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "13",
-    "word": "he",
-    "translation": "él"
+    "text": "Overall",
+    "meanings": [
+      "General",
+      "En general"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "14",
-    "word": "with",
-    "translation": "con"
+    "text": "Either x or y",
+    "meanings": [
+      "O bien x o y"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "15",
-    "word": "on",
-    "translation": "en / sobre"
+    "text": "Acknowledge",
+    "meanings": [
+      "Reconocer",
+      "Admitir"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "16",
-    "word": "do",
-    "translation": "hacer"
+    "text": "Cumbersome",
+    "meanings": [
+      "Engorroso",
+      "Pesado",
+      "Incomodo"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "17",
-    "word": "at",
-    "translation": "en / a"
+    "text": "Time-consuming",
+    "meanings": [
+      "Que consume mucho tiempo"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "18",
-    "word": "by",
-    "translation": "por"
+    "text": "Forth",
+    "meanings": [
+      "Adelante",
+      "Hacia adelante"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "19",
-    "word": "not",
-    "translation": "no"
+    "text": "Streamlined",
+    "meanings": [
+      ""
+    ],
+    "notes": [
+      "Simplified and optimized for efficiency"
+    ],
+    "examples": []
   },
   {
     "id": "20",
-    "word": "this",
-    "translation": "este / esta"
+    "text": "Insights",
+    "meanings": [
+      "Perspectivas"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "21",
-    "word": "but",
-    "translation": "pero"
+    "text": "Rather than",
+    "meanings": [
+      "En lugar de"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "22",
-    "word": "from",
-    "translation": "de / desde"
+    "text": "Societal structures",
+    "meanings": [
+      "Estructuras sociales"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "23",
-    "word": "or",
-    "translation": "o"
+    "text": "Punishments",
+    "meanings": [
+      "Castigos"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "24",
-    "word": "which",
-    "translation": "cuál / que"
+    "text": "None",
+    "meanings": [
+      "Ninguno"
+    ],
+    "notes": [
+      "Important logical distinction"
+    ],
+    "examples": []
   },
   {
     "id": "25",
-    "word": "say",
-    "translation": "decir"
+    "text": "Do-over",
+    "meanings": [
+      "Repetición",
+      "Volver a intentar"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "26",
-    "word": "she",
-    "translation": "ella"
+    "text": "Slipping",
+    "meanings": [
+      "Deslizándose"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "27",
-    "word": "he",
-    "translation": "él"
+    "text": "Farther",
+    "meanings": [
+      "Más lejos"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "28",
-    "word": "an",
-    "translation": "un / una"
+    "text": "Behind",
+    "meanings": [
+      "Detrás"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "29",
-    "word": "will",
-    "translation": "will"
+    "text": "Backward",
+    "meanings": [
+      "Hacia atrás"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "30",
-    "word": "my",
-    "translation": "mi"
+    "text": "Forward",
+    "meanings": [
+      "Hacia adelante"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "31",
-    "word": "one",
-    "translation": "uno"
+    "text": "Involve",
+    "meanings": [
+      "Involucrar"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "32",
-    "word": "all",
-    "translation": "todo / todos"
+    "text": "Gather",
+    "meanings": [
+      "Reunir",
+      "Recoger",
+      "Acumular"
+    ],
+    "notes": [],
+    "examples": [
+      "to gather data",
+      "to gather information",
+      "to gather insights"
+    ]
   },
   {
     "id": "33",
-    "word": "would",
-    "translation": "would"
+    "text": "Worst of all",
+    "meanings": [
+      "Lo peor de todo"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "34",
-    "word": "there",
-    "translation": "ahí / allí"
+    "text": "Stand for",
+    "meanings": [
+      "Representar"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "35",
-    "word": "say",
-    "translation": "decir"
+    "text": "Fuss",
+    "meanings": [
+      "Alboroto"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "36",
-    "word": "who",
-    "translation": "quién"
+    "text": "Default",
+    "meanings": [
+      "Predeterminado"
+    ],
+    "notes": [],
+    "examples": ["By default"]
   },
   {
     "id": "37",
-    "word": "their",
-    "translation": "su / sus"
+    "text": "Fictionalized",
+    "meanings": [],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "38",
-    "word": "if",
-    "translation": "si"
+    "text": "Stand",
+    "meanings": [
+      "Postura"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "39",
-    "word": "get",
-    "translation": "obtener"
+    "text": "No one",
+    "meanings": [
+      "Nadie"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "40",
-    "word": "she",
-    "translation": "ella"
+    "text": "Borrower",
+    "meanings": [
+      "Prestatario"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "41",
-    "word": "her",
-    "translation": "su / sus (de ella)"
+    "text": "Accuracy",
+    "meanings": [
+      "Exactitud"
+    ],
+    "notes": [
+      "Accuracy refers to how close a measured value is to the true or accepted value, indicating correctness"
+    ],
+    "examples": []
   },
   {
     "id": "42",
-    "word": "they",
-    "translation": "ellos / ellas"
+    "text": "Precision",
+    "meanings": [
+      "Precisión"
+    ],
+    "notes": [
+      "Precision refers to consistency or repeatability of measurements"
+    ],
+    "examples": []
   },
   {
     "id": "43",
-    "word": "he",
-    "translation": "él"
+    "text": "Holdout data",
+    "meanings": [
+      "Datos de retención"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "44",
-    "word": "him",
-    "translation": "lo / le (a él)"
+    "text": "Endeavor",
+    "meanings": [
+      "Empeño"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "45",
-    "word": "no",
-    "translation": "no"
+    "text": "Myriad",
+    "meanings": [
+      "Multitud"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "46",
-    "word": "out",
-    "translation": "fuera"
+    "text": "Theoretically",
+    "meanings": [
+      "Teóricamente"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "47",
-    "word": "up",
-    "translation": "arriba"
+    "text": "Standalone",
+    "meanings": [
+      "Independiente"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "48",
-    "word": "about",
-    "translation": "acerca de"
+    "text": "On their own",
+    "meanings": [
+      "Por sí solos"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "49",
-    "word": "who",
-    "translation": "quién"
+    "text": "Sort of",
+    "meanings": [
+      "Más o menos"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "50",
-    "word": "get",
-    "translation": "obtener"
+    "text": "Dive in",
+    "meanings": [
+      "Sumergirse"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "51",
-    "word": "go",
-    "translation": "ir"
+    "text": "AI-driven",
+    "meanings": [
+      "Impulsado por IA"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "52",
-    "word": "me",
-    "translation": "me / a mí"
+    "text": "It powers x",
+    "meanings": [
+      "Impulsa x"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "53",
-    "word": "know",
-    "translation": "saber / conocer"
+    "text": "Easier",
+    "meanings": [
+      "Más fácil"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "54",
-    "word": "take",
-    "translation": "tomar"
+    "text": "Efficiencies",
+    "meanings": [
+      "Eficiencias"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "55",
-    "word": "them",
-    "translation": "los / las (a ellos / ellas)"
+    "text": "Otherwise",
+    "meanings": [
+      "De otro modo"
+    ],
+    "notes": [
+      "Used to describe what would happen in a different situation"
+    ],
+    "examples": [
+      "they might not otherwise know about"
+    ]
   },
   {
     "id": "56",
-    "word": "like",
-    "translation": "gustar"
+    "text": "Baseline",
+    "meanings": [
+      "Línea base"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "57",
-    "word": "then",
-    "translation": "entonces"
+    "text": "Safer",
+    "meanings": [
+      "Más seguro"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "58",
-    "word": "now",
-    "translation": "ahora"
+    "text": "Be trusted",
+    "meanings": [
+      "Ser confiable"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "59",
-    "word": "look",
-    "translation": "mirar"
+    "text": "Practitioners",
+    "meanings": [
+      "Profesionales"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "60",
-    "word": "only",
-    "translation": "sólo / solamente"
+    "text": "Fairness",
+    "meanings": [
+      "Equidad"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "61",
-    "word": "come",
-    "translation": "venir"
+    "text": "Robustness",
+    "meanings": [
+      "Robustez"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "62",
-    "word": "its",
-    "translation": "su / sus (de eso)"
+    "text": "Explainability",
+    "meanings": [
+      "Explicabilidad"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "63",
-    "word": "over",
-    "translation": "sobre"
+    "text": "Equitable",
+    "meanings": [
+      "Equitativo"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "64",
-    "word": "think",
-    "translation": "pensar"
+    "text": "Arise",
+    "meanings": [
+      "Surgir"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "65",
-    "word": "also",
-    "translation": "también"
+    "text": "Arises",
+    "meanings": [
+      "Surge"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "66",
-    "word": "back",
-    "translation": "atrás"
+    "text": "It mirrors",
+    "meanings": [
+      "Refleja"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "67",
-    "word": "after",
-    "translation": "después de"
+    "text": "Encoded",
+    "meanings": [
+      "Codificado"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "68",
-    "word": "use",
-    "translation": "usar"
+    "text": "Skewed data",
+    "meanings": [
+      "Datos sesgados"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "69",
-    "word": "two",
-    "translation": "dos"
+    "text": "Misrepresented",
+    "meanings": [
+      "Mal representado"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "70",
-    "word": "how",
-    "translation": "cómo"
+    "text": "Distort",
+    "meanings": [
+      "Distorsionar"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "71",
-    "word": "our",
-    "translation": "nuestro / nuestra"
+    "text": "Accountability",
+    "meanings": [
+      "Responsabilidad"
+    ],
+    "notes": [],
+    "examples": [
+      "to ensure accountability",
+      "corporate accountability",
+      "accountability in governance"
+    ]
   },
   {
     "id": "72",
-    "word": "work",
-    "translation": "trabajar"
+    "text": "Intertwined",
+    "meanings": [
+      "Entrelazado"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "73",
-    "word": "first",
-    "translation": "primero"
+    "text": "Addressing",
+    "meanings": [
+      "Abordando"
+    ],
+    "notes": [],
+    "examples": [
+      "addressing bias",
+      "addressing fairness",
+      "addressing robustness"
+    ]
   },
   {
     "id": "74",
-    "word": "well",
-    "translation": "bien"
+    "text": "What’s meant by",
+    "meanings": [
+      ""
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "75",
-    "word": "way",
-    "translation": "manera / camino"
+    "text": "Could you look into this?",
+    "meanings": [
+      "¿Podrías investigar esto?"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "76",
-    "word": "even",
-    "translation": "incluso"
+    "text": "I guess",
+    "meanings": [
+      "Supongo"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "77",
-    "word": "new",
-    "translation": "nuevo / nueva"
+    "text": "And so on",
+    "meanings": [
+      "Y así sucesivamente"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "78",
-    "word": "want",
-    "translation": "querer"
+    "text": "Concern",
+    "meanings": [
+      "Preocupación"
+    ],
+    "notes": [],
+    "examples": [
+      "to concern oneself with",
+      "to concern about",
+      "to concern the public"
+    ]
   },
   {
     "id": "79",
-    "word": "because",
-    "translation": "porque"
+    "text": "Mitigate",
+    "meanings": [
+      "Mitigar"
+    ],
+    "notes": [],
+    "examples": [
+      "to mitigate risks",
+      "to mitigate impact",
+      "to mitigate damage"
+    ]
   },
   {
     "id": "80",
-    "word": "any",
-    "translation": "cualquier"
+    "text": "Principles",
+    "meanings": [
+      "Principios"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "81",
-    "word": "these",
-    "translation": "estos / estas"
+    "text": "Ease",
+    "meanings": [
+      "Facilidad"
+    ],
+    "notes": [],
+    "examples": [
+      "to ease the process",
+      "to ease the burden",
+      "to ease the transition"
+    ]
   },
   {
     "id": "82",
-    "word": "give",
-    "translation": "dar"
+    "text": "Fooled",
+    "meanings": [
+      "Engañado"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "83",
-    "word": "day",
-    "translation": "día"
+    "text": "Adversarial",
+    "meanings": [
+      ""
+    ],
+    "notes": [
+      "In technical contexts, it describes situations where one party actively tries to cause another system to fail. - Intentionally hostile or designed to break something"
+    ],
+    "examples": []
   },
   {
     "id": "84",
-    "word": "most",
-    "translation": "la mayoría"
+    "text": "Patterns",
+    "meanings": [
+      "Patrones"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "85",
-    "word": "us",
-    "translation": "nos / a nosotros"
+    "text": "Threats",
+    "meanings": [
+      "Amenazas"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "86",
-    "word": "such",
-    "translation": "tal"
+    "text": "Impervious",
+    "meanings": [
+      "Impermeable"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "87",
-    "word": "here",
-    "translation": "aquí"
+    "text": "Aid",
+    "meanings": [
+      "Ayuda"
+    ],
+    "notes": [],
+    "examples": [
+      "to aid in decision-making",
+      "to aid understanding",
+      "to aid communication"
+    ]
   },
   {
     "id": "88",
-    "word": "where",
-    "translation": "dónde"
+    "text": "Freemium",
+    "meanings": [
+      "Free",
+      "Premium"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "89",
-    "word": "through",
-    "translation": "a través de"
+    "text": "Poisoning",
+    "meanings": [
+      "Envenenamiento"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "90",
-    "word": "much",
-    "translation": "mucho / mucha"
+    "text": "Apprehension",
+    "meanings": [
+      "Aprehensión"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "91",
-    "word": "before",
-    "translation": "antes de"
+    "text": "Vetted",
+    "meanings": [
+      "Evaluado"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "92",
-    "word": "same",
-    "translation": "mismo / misma"
+    "text": "Trustworthy",
+    "meanings": [
+      "Confiable"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "93",
-    "word": "think",
-    "translation": "pensar"
+    "text": "Trustworthiness",
+    "meanings": [
+      "Confiabilidad"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "94",
-    "word": "see",
-    "translation": "ver"
+    "text": "Brainstorming",
+    "meanings": [
+      "Lluvia de ideas"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "95",
-    "word": "come",
-    "translation": "venir"
+    "text": "Issue",
+    "meanings": [
+      "Problema"
+    ],
+    "notes": [
+      ""
+    ],
+    "examples": [
+      "to issue a statement",
+      "to issue a warning",
+      "to issue a report"
+    ]
   },
   {
     "id": "96",
-    "word": "want",
-    "translation": "querer"
+    "text": "Bonus feature",
+    "meanings": [
+      "Función adicional"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "97",
-    "word": "look",
-    "translation": "mirar"
+    "text": "Interpretability",
+    "meanings": [
+      "Interpretabilidad"
+    ],
+    "notes": [],
+    "examples": []
   },
   {
     "id": "98",
-    "word": "use",
-    "translation": "usar"
+    "text": "Degree",
+    "meanings": [
+      "Grado"
+    ],
+    "notes": [],
+    "examples": [
+      "to a certain degree",
+      "to some degree",
+      "to a large degree"
+    ]
   },
   {
     "id": "99",
-    "word": "find",
-    "translation": "encontrar"
+    "text": "Further",
+    "meanings": [
+      "Más allá"
+    ],
+    "notes": [],
+    "examples": [
+      "further analysis",
+      "further information",
+      "further details"
+    ]
   },
   {
     "id": "100",
-    "word": "give",
-    "translation": "dar"
+    "text": "Arrived at",
+    "meanings": [
+      "Llegado a"
+    ],
+    "notes": [],
+    "examples": [
+      "arrived at a decision",
+      "arrived at the location",
+      "x are arrived at"
+    ]
+  },
+  {
+    "id": "101",
+    "text": "Stakeholders",
+    "meanings": [
+      "Partes interesadas"
+    ],
+    "notes": [],
+    "examples": [
+      "project stakeholders",
+      "key stakeholders",
+      "stakeholders in the community"
+    ]
+  },
+  {
+    "id": "102",
+    "text": "Proof-of-concept",
+    "meanings": [
+      "Prueba de concepto"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "103",
+    "text": "PII - Personally identifiable information",
+    "meanings": [
+      "Información personal identificable"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "104",
+    "text": "Governance",
+    "meanings": [
+      "Gobernanza"
+    ],
+    "notes": [],
+    "examples": [
+      "data governance",
+      "corporate governance",
+      "governance policies"
+    ]
+  },
+  {
+    "id": "105",
+    "text": "Compliance",
+    "meanings": [
+      "Cumplimiento"
+    ],
+    "notes": [],
+    "examples": [
+      "regulatory compliance",
+      "data compliance",
+      "compliance standards"
+    ]
+  },
+  {
+    "id": "106",
+    "text": "Template",
+    "meanings": [
+      "Plantilla"
+    ],
+    "notes": [],
+    "examples": [
+      "document template",
+      "email template",
+      "template for reports"
+    ]
+  },
+  {
+    "id": "107",
+    "text": "If their credit is sound",
+    "meanings": [
+      "Si su crédito es sólido"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "108",
+    "text": "Reach",
+    "meanings": [
+      "Alcanzar"
+    ],
+    "notes": [],
+    "examples": [
+      "to reach a conclusion",
+      "expand reach"
+    ]
+  },
+  {
+    "id": "109",
+    "text": "Curricula",
+    "meanings": [
+      "Planes de estudio"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "110",
+    "text": "Effort",
+    "meanings": ["Esfuerzo", "Empeño", "Intento", "Labor"],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "111",
+    "text": "Breach",
+    "meanings": [
+      "Incumplimiento"
+    ],
+    "notes": [],
+    "examples": [
+      "data breach",
+      "security breach",
+      "breach of contract"
+    ]
+  },
+  {
+    "id": "112",
+    "text": "Safeguard",
+    "meanings": [
+      "Salvaguardar"
+    ],
+    "notes": [],
+    "examples": [
+      "to safeguard data",
+      "to safeguard privacy"
+    ]
+  },
+  {
+    "id": "113",
+    "text": "Feature",
+    "meanings": [
+      "Característica"
+    ],
+    "notes": [],
+    "examples": [
+      "The new smartphone has several advanced features",
+      "One of the key features of the software is its user-friendly interface",
+      "The feature film received critical acclaim"
+    ]
+  },
+  {
+    "id": "114",
+    "text": "Occur",
+    "meanings": [
+      "Ocurrir"
+    ],
+    "notes": [],
+    "examples": [
+      "occur to me",
+      "occur frequently",
+      "occur suddenly"
+    ]
+  },
+  {
+    "id": "115",
+    "text": "Model anonymization",
+    "meanings": [
+      "Anonimización del modelo"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "116",
+    "text": "Supplier evaluation",
+    "meanings": [
+      "Evaluación de proveedores"
+    ],
+    "notes": [
+      "Refers to the process of analyzing and approving potential suppliers"
+    ],
+    "examples": []
+  },
+  {
+    "id": "117",
+    "text": "Scope creep",
+    "meanings": [
+      "Expansión del alcance"
+    ],
+    "notes": [
+      "A term used when a project's original scope (objective) changes and goes over what was originally intended"
+    ],
+    "examples": []
+  },
+  {
+    "id": "118",
+    "text": "Incremental value delivery",
+    "meanings": [
+      "Entrega incremental de valor"
+    ],
+    "notes": [
+      "By releasing small units, you means breaking large projects into the small working units, which you release to your customers as soon as tget customer feedback early and at every stage"
+    ],
+    "examples": []
+  },
+  {
+    "id": "119",
+    "text": "Due to",
+    "meanings": [
+      "Debido a"
+    ],
+    "notes": [
+      ""
+    ],
+    "examples": [
+      "The event was canceled due to bad weather",
+      "The delay was due to technical issues",
+      "The success of the project is due to the team's hard work"
+    ]
+  },
+  {
+    "id": "120",
+    "text": "Small batches",
+    "meanings": [
+      "Lotes pequeños"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "121",
+    "text": "Analyze",
+    "meanings": [
+      "Analizar"
+    ],
+    "notes": [],
+    "examples": [
+      "analyze the data",
+      "analyze the results",
+      "analyze the situation"
+    ]
+  },
+  {
+    "id": "122",
+    "text": "Risks",
+    "meanings": [
+      "Riesgos"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "123",
+    "text": "Eliminated",
+    "meanings": [
+      "Eliminado"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "124",
+    "text": "Performance",
+    "meanings": [
+      "Rendimiento"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "125",
+    "text": "Right away",
+    "meanings": [
+      "De inmediato"
+    ],
+    "notes": [],
+    "examples": [
+      "I need you to start right away",
+      "The results were visible right away",
+      "She responded to the email right away"
+    ]
+  },
+  {
+    "id": "126",
+    "text": "Scaffolding",
+    "meanings": [
+      "Andamiaje"
+    ],
+    "notes": [],
+    "examples": [
+      "Scaffolding is a temporary structure used to support work crews and materials during the construction or repair of buildings and other large structures.",
+      "The scaffolding allowed workers to safely reach higher levels of the building."
+    ]
+  },
+  {
+    "id": "127",
+    "text": "Shipping",
+    "meanings": [
+      "Envío"
+    ],
+    "notes": [],
+    "examples": [
+      "The shipping of goods was delayed",
+      "We need to arrange shipping for the new products",
+      "The company offers free shipping on orders over $50"
+    ]
+  },
+  {
+    "id": "128",
+    "text": "Beyond",
+    "meanings": [
+      "Más allá de"
+    ],
+    "notes": [],
+    "examples": [
+      "beyond the horizon",
+      "beyond the scope",
+      "beyond expectations"
+    ]
+  },
+  {
+    "id": "129",
+    "text": "Wisdom",
+    "meanings": [
+      "Sabiduría"
+    ],
+    "notes": [],
+    "examples": [
+      "He is known for his wisdom",
+      "The book is full of practical wisdom",
+      "She shared her wisdom with the younger generation"
+    ]
+  },
+  {
+    "id": "130",
+    "text": "Eager",
+    "meanings": [
+      "Ansioso"
+    ],
+    "notes": [
+      "When expressing strong enthusiasm or anticipation"
+    ],
+    "examples": [
+      "She was eager to start her new job",
+      "The children were eager to open their presents",
+      "He is eager to learn new skills"
+    ]
+  },
+  {
+    "id": "131",
+    "text": "Despair",
+    "meanings": [
+      "Desesperación"
+    ],
+    "notes": [],
+    "examples": [
+      "He was in despair after losing his job",
+      "She felt a sense of despair about the situation",
+      "The community was in despair after the natural disaster"
+    ]
+  },
+  {
+    "id": "132",
+    "text": "Ratios",
+    "meanings": [
+      "Razones / Proporciones"
+    ],
+    "notes": [],
+    "examples": [
+      "financial ratios",
+      "ratios in mathematics",
+      "ratios of ingredients in a recipe"
+    ]
+  },
+  {
+    "id": "133",
+    "text": "I don't mind",
+    "meanings": ["No me importa", "No me molesta"],
+    "notes": [],
+    "examples": ["I don't mind the noise", "I don't mind waiting"]
+  },
+  {
+    "id": "134",
+    "text": "Accountable",
+    "meanings": [
+      "Responsable"
+    ],
+    "notes": [],
+    "examples": [
+      "The accountability of public officials",
+      "Corporate accountability",
+      "Holding individuals accountable for their actions"
+    ]
+  },
+  {
+    "id": "135",
+    "text": "Guidelines",
+    "meanings": [
+      "Directrices"
+    ],
+    "notes": [],
+    "examples": [
+      "The company has established guidelines for employee conduct",
+      "The guidelines for the project were clearly defined"
+    ]
+  },
+  {
+    "id": "136",
+    "text": "Overfitting",
+    "meanings": [
+      "Sobreajuste"
+    ],
+    "notes": [
+      "Model fits training data too closely"
+    ],
+    "examples": [
+      "Overfitting occurs when a model learns the training data too well, including its noise and outliers, leading to poor generalization on new data."
+    ]
+  },
+  {
+    "id": "137",
+    "text": "Scatterplot",
+    "meanings": [
+      "Diagrama de dispersión"
+    ],
+    "notes": [],
+    "examples": [
+      "A scatterplot is a type of data visualization that uses dots to represent the values of two different variables."
+    ]
+  },
+  {
+    "id": "138",
+    "text": "Boundary",
+    "meanings": [
+      "Límite"
+    ],
+    "notes": [
+      "boundaries"
+    ],
+    "examples": [
+      "The boundary between two countries",
+      "The boundary of the property",
+      "Setting boundaries in relationships"
+    ]
+  },
+  {
+    "id": "139",
+    "text": "Tradeoffs",
+    "meanings": [
+      "Compensaciones"
+    ],
+    "notes": [],
+    "examples": [
+      "There are tradeoffs between speed and accuracy",
+      "We need to consider the tradeoffs involved in this decision"
+    ]
+  },
+  {
+    "id": "140",
+    "text": "Misclassified",
+    "meanings": [
+      "Mal clasificado"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "141",
+    "text": "Misclassification",
+    "meanings": [
+      "Error de clasificación",
+      "Clasificación incorrecta"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "142",
+    "text": "Bootstrap problem",
+    "meanings": [
+      "Problema de arranque"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "143",
+    "text": "Deal with",
+    "meanings": [
+      "Lidiar con"
+    ],
+    "notes": [],
+    "examples": []
+  },
+  {
+    "id": "144",
+    "text": "Proficient",
+    "meanings": [
+      "Competente"
+    ],
+    "notes": [],
+    "examples": [
+      "proficient in Spanish",
+      "proficient at coding",
+      "She is proficient in multiple languages"
+    ]
+  },
+  {
+    "id": "145",
+    "text": "It simplifies",
+    "meanings": [
+      "Simplifica"
+    ],
+    "notes": [],
+    "examples": [
+      "simplifies the process",
+      "This fraction simplifies to one half"
+    ]
+  },
+  {
+    "id": "146",
+    "text": "Reinforcement",
+    "meanings": [
+      "Refuerzo"
+    ],
+    "notes": [],
+    "examples": [
+      "positive reinforcement",
+      "negative reinforcement",
+      "the reinforcement of learning"
+    ]
+  },
+  {
+    "id": "147",
+    "text": "Enforcement",
+    "meanings": [
+      "Cumplimiento",
+      "Aplicación"
+    ],
+    "notes": [],
+    "examples": [
+      "law enforcement",
+      "the enforcement of rules",
+      "the enforcement of contracts"
+    ]
+  },
+  {
+    "id": "148",
+    "text": "By the book",
+    "meanings": [
+      "Según las reglas"
+    ],
+    "notes": [
+      "overkill"
+    ],
+    "examples": [
+      "He follows the rules by the book",
+      "The project was executed by the book to ensure compliance"
+    ]
+  },
+  {
+    "id": "149",
+    "text": "Heuristics",
+    "meanings": [
+      "Heurísticas"
+    ],
+    "notes": [],
+    "examples": [
+      "Heuristics are mental shortcuts that help in decision-making",
+      "Using heuristics can speed up problem-solving processes"
+    ]
+  },
+  {
+    "id": "150",
+    "text": "Separation of concerns",
+    "meanings": [],
+    "notes": [],
+    "examples": [
+      "The principle of separation of concerns helps in managing complexity in software design",
+      "By separating concerns, developers can focus on specific aspects of a system without being overwhelmed by its entirety"
+    ]
+  },
+  {
+    "id": "151",
+    "text": "Inside",
+    "meanings": [
+      "Dentro de"
+    ],
+    "notes": [
+      "Usa inside cuando te refieras al interior de un lugar o recipiente concreto y cerrado"
+    ],
+    "examples": [
+      "Inside the box",
+      "Inside the building",
+      "The keys are inside the drawer",
+      "She stayed inside the house",
+      "Come inside!",
+      "He walked inside",
+      "Inside the organization"
+    ]
+  },
+  {
+    "id": "152",
+    "text": "Spot",
+    "meanings": [
+      "Detectar",
+      "Localizar",
+      "Identificar rapidamente"
+    ],
+    "notes": [],
+    "examples": [
+      "The system can spot anomalies in real time"
+    ]
   }
 ]

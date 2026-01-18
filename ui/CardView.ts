@@ -9,8 +9,8 @@ export class CardView {
 
     constructor() {
         this.cardElement = this.getElement('.card');
-        this.frontText = this.getElement('.front p');
-        this.backText = this.getElement('.back p');
+        this.frontText = this.getElement('.front ul');
+        this.backText = this.getElement('.back ul');
         this.btn = this.getElement('#nextBtn');
     }
 
@@ -23,8 +23,11 @@ export class CardView {
     }
 
     renderText(card: Card): void {
-        this.frontText.textContent = card.getWord();
-        this.backText.textContent = card.getTranslation();
+        this.frontText.textContent = card.getText();
+        const meaningsList = card.getMeanings();
+        this.backText.innerHTML = meaningsList
+            .map((meaning) => `<li>${meaning}</li>`)
+            .join('');
     }
 
     flip(): void {
