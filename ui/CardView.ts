@@ -32,13 +32,30 @@ export class CardView {
         this.cardElement.classList.toggle('flipped', this.isFlipped);
     }
 
-    resetFlip(): void {
-        this.isFlipped = false;
-        this.cardElement.classList.remove('flipped');
-    }
-
     isCardFlipped(): boolean {  
         return this.isFlipped;
+    }
+
+    handleDelay(onCompleted: () => void): void {
+        if (!this.isFlipped) {
+            onCompleted();
+            return;
+        }
+
+        const onTransitionEnd = (event: Event) => {
+            if (
+                event instanceof TransitionEvent &&
+                event.propertyName === 'transform'
+            ) {
+                this.cardElement.removeEventListener('transitionend', onTransitionEnd);
+                onCompleted();
+            }
+        };
+
+        this.cardElement.addEventListener('transitionend', onTransitionEnd);
+
+        this.isFlipped = false;
+        this.cardElement.classList.remove('flipped');
     }
 
     onCardClick(handler: () => void): void {

@@ -21,11 +21,10 @@ export class CardController {
         });
 
         this.view.onNextClick(() => {
-            if (this.view.isCardFlipped()) {
-                this.view.resetFlip();
-            }
-            this.deck.next();
-            this.view.renderText(this.deck.current());
+            this.view.handleDelay(() => {
+                this.deck.next();
+                this.view.renderText(this.deck.current());
+            });
         });
     }
 }
