@@ -1,4 +1,4 @@
-import data from './data/data.json' assert { type: 'json' };
+import data from '../data/data.json' assert { type: 'json' };
 
 let isFlipped = false;
 
@@ -16,6 +16,8 @@ const frontElement = cardElement?.querySelector('.front p');
 const backElement = cardElement?.querySelector('.back p');
     
 let currentIndex = 0;
+
+// Entry point
 
 const updateCardContent = () =>{
     const currentContent = data[currentIndex];
@@ -50,5 +52,3 @@ nextCardBtn?.addEventListener('click', () => {
     renderFlip(isFlipped);
     cardElement?.addEventListener('transitionend', onTransitionEnd);
 });
-
-updateCardContent();
