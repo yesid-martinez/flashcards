@@ -11,14 +11,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
 }
 
 .cardContainer {
     background-color: transparent;
-    width: 500px;
-    height: 300px;
+    width: 90%;
+    height: 200px;
+    border-radius: 1rem;
     perspective: 1000px; /* 3D Effect*/
 }
 
@@ -30,6 +31,7 @@ body {
   
   transition: transform 0.8s;
   transform-style: preserve-3d;
+-webkit-tap-highlight-color: transparent;
 
   ul {
     height: 100%;
@@ -37,7 +39,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 20px;
     font-weight: bold;
     list-style-type: none;
     gap: .5rem;
@@ -60,6 +62,7 @@ body {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   cursor: pointer;
+  border-radius: 1rem;
 
   padding: 1rem;
 }
@@ -67,7 +70,6 @@ body {
 .front{
     background-color: #ffffff;
     color: #333333;
-    border-radius: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -80,27 +82,68 @@ body {
 .back {
     background-color: #60aa72;
     color: white;
-    border-radius: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transform: rotateY(180deg);
 }
 
 button {
-    margin-top: 64px;
+    margin-top: 20px;
     padding: 10px 20px;
-    font-size: 1.2rem;
     border: none;
     border-radius: 8px;
     background-color: #3f9d44;;
     color: white;
     cursor: pointer;
-    font-size: 1.3rem;
+    font-size: 18px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    -webkit-tap-highlight-color: transparent;
 
     &:hover {
         background-color: #358539;
     }
 
     transition: background-color 0.3s;
+}
+
+@media (min-width: 525px) {
+    .cardContainer {
+        width: 500px;
+        height: 300px;
+    }
+    
+    .card{
+        ul{
+            font-size: 1.5rem;
+        }
+    }
+
+    button {
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 525px) {
+
+    body{
+        height: 100dvh;
+        padding: 16px;
+    }
+
+    .cardContainer {
+        width: 60%;
+        height: 70%;
+    }
+
+    .card{
+        ul{
+            font-size: 20px;
+        }
+    }
+    
+    button{
+        margin-top: 16px;
+        font-size: 18px;   
+    }
 }
