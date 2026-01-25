@@ -28,4 +28,8 @@ export class Card {
     getNotes = (): string[] => {
         return this.notes ?? [];
     };
+
+    getExamples = (): string[] => {
+        return this.examples ?? [];
+    }
 }   
