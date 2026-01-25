@@ -1,4 +1,4 @@
-import { Card } from '../../domain/index';
+import { Card } from '../entities/Card';
 export interface ICardRepository {
   getAll(): Promise<Card[]>;
 }

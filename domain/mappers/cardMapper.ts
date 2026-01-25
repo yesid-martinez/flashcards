@@ -1,6 +1,6 @@
-import { Card } from '../../domain/index';
+import { Card } from '../entities/Card';
 
-export interface CardRaw {
+interface CardSchema {
     id: string;
     text: string;
     meanings: string[];
@@ -8,7 +8,7 @@ export interface CardRaw {
     examples: string[];
 }
 
-export function jsonToCards(data: CardRaw[]): Card[] {
+export function cardMapper(data: CardSchema[]): Card[] {
     return data.map(
         item => new Card(item.id, item.text, item.meanings, item.notes, item.examples)
     );

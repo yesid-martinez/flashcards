@@ -1,5 +1,4 @@
-import { CardController } from "./controllers/CardController";
-import { JSONCardRepository } from "./infraestructure/repositories/JSONCardRepository";
+import { Controller } from './controllers/Controller';
 
-const controller = new CardController(new JSONCardRepository());
-controller.init();
+const controller = new Controller();
+controller.run();
