@@ -1,5 +1,5 @@
 import { Card } from '../entities/Card';
-import type { ICardRepository } from '../interfaces/ICardRepository';
+import type { ICardRepository } from '../index';
 
 import { cardMapper } from '../mappers/cardMapper';
 import cardsData from '../../data/data.json' assert { type: 'json' };

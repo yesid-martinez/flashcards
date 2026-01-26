@@ -35,6 +35,18 @@ export class IDBClient {
     });
   }
 
+  getAll<T>(storeName: string): Promise<T[]> {
+    return new Promise((resolve, reject) => {
+      const transaction = this.db.transaction(storeName, "readonly");
+      const store = transaction.objectStore(storeName);
+
+      const request = store.getAll();
+
+      request.onsuccess = () => resolve(request.result as T[]);
+      request.onerror = () => reject(request.error);
+    });
+  }
+
     // Add single record sequentially
     add<T>(storeName: string, value: T): Promise<void> {
     return new Promise((resolve, reject) => {
@@ -56,18 +68,6 @@ export class IDBClient {
       const request = store.delete(key);
 
       request.onsuccess = () => resolve();
-      request.onerror = () => reject(request.error);
-    });
-  }
-
-  getAll<T>(storeName: string): Promise<T[]> {
-    return new Promise((resolve, reject) => {
-      const transaction = this.db.transaction(storeName, "readonly");
-      const store = transaction.objectStore(storeName);
-
-      const request = store.getAll();
-
-      request.onsuccess = () => resolve(request.result as T[]);
       request.onerror = () => reject(request.error);
     });
   }

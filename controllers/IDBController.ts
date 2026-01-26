@@ -1,10 +1,17 @@
 import { IDBClient } from "../infrastructure/storage/IDB/IDBClient";
 
 export class IDBController {
-    constructor() {}
+    idbClient: IDBClient;
+    constructor() {
+        this.idbClient =  new IDBClient();
+    }
 
     initDB = async (): Promise<void> => {
-        const idbClient = new IDBClient();
-        await idbClient.initializeDB();
+        await this.idbClient.initializeDB();
+    }
+
+    getStoreData = async <T>(storeName: string): Promise<T[]> => {
+        const data = await this.idbClient.getAll<T>(storeName);
+        return data;
     }
 }

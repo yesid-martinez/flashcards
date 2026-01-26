@@ -1,14 +1,13 @@
 import { CardDeck } from '../domain';
 import { CardView } from '../ui/card/CardView';
 import { CardAnimation } from '../ui/card/CardAnimation';
-import type { ICardRepository } from '../domain/index';
 import { CardRepository } from '../domain/index';
 
 export class CardController {
     private deck!: CardDeck;
     private view: CardView;
     private animation!: CardAnimation;
-    private repository: ICardRepository;
+    private repository: CardRepository;
 
     constructor() {
         this.repository = new CardRepository();
