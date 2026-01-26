@@ -42,7 +42,7 @@ export class CardAnimation {
         this.onNextClick(() => {
             this.handleDelay(() => {
                 const currentCard = this.deck.next();
-                this.view.renderText(this.deck.current());
+                this.view.renderText(currentCard);
             }); 
         });
     }

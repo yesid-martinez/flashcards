@@ -11,9 +11,9 @@ export class Controller {
         await idbController.initDB();
 
         const favoriteController = new FavoriteController(idbController.idbClient);
-        const favorites = await favoriteController.init();
+        await favoriteController.initRepo();
 
-        const cardController = new CardController();
+        const cardController = new CardController(favoriteController);
         cardController.init();
     }
 }
