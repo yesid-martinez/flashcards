@@ -1,4 +1,3 @@
-import type { Favorite } from "../infrastructure/models/Favorite";
 import { FavoriteRepository } from "../infrastructure/repositories/FavoriteRepository";
 import { IDBClient } from "../infrastructure/storage/IDB/IDBClient";
 import { FavoriteIcon } from "../ui/favorites/FavoriteIcon";

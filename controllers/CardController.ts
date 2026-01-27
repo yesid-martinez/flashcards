@@ -32,10 +32,28 @@ export class CardController {
         this.animation.onNextClick(() => {
             this.updateFavoriteState();
         });
+
+        // Favorite button handler
+        this.view.getFavoriteButton().addEventListener('click', () => {
+            this.toggleFavorite();
+        });
     }
 
     private updateFavoriteState(cardId = this.deck.current().getId()): void {
         const isFavorite = this.favController.repository.isFavorite(cardId);
         this.favController.favoriteIcon.updateFavoriteIcon(cardId, isFavorite);
+    }
+
+    private async toggleFavorite(): Promise<void> {
+        const cardId = this.deck.current().getId();
+        const repo = this.favController.repository;
+
+        if (repo.isFavorite(cardId)) {
+            await repo.remove(cardId);
+        } else {
+            await repo.add(cardId);
+        }
+
+        this.updateFavoriteState(cardId);
     }
 }

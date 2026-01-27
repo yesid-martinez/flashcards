@@ -1,8 +1,6 @@
 import { Favorite } from "../models/Favorite";
 import { IDBClient } from "../storage/IDB/IDBClient";
 
-import favsData from "../../data/favorites.json" assert { type: "json" };
-
 export class FavoriteRepository {
   private favorites: Favorite[] = [];
 
@@ -21,15 +19,7 @@ export class FavoriteRepository {
     return stored.map(r => new Favorite(r.cardId));
   }
 
-  const initial = favsData.map(f => new Favorite(f.cardId));
-
-  await Promise.all(
-    initial.map(f =>
-      this.idb.add("favorites", { cardId: f.getCardId() })
-    )
-  );
-
-  return initial;
+  return [];
 }
 
   async getFavorites(): Promise<Favorite[]> {

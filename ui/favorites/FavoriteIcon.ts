@@ -1,19 +1,19 @@
 export class FavoriteIcon {
-    favoriteIconElement: HTMLHeadingElement;
+    favoriteIconElement: HTMLButtonElement;
 
     constructor() {
-        const icon = document.querySelector('h2');
+        const icon = document.querySelector('#favoriteBtn');
         if (!icon) {
             throw new Error('Favorite icon element not found');
         }
-        this.favoriteIconElement = icon as HTMLHeadingElement;
+        this.favoriteIconElement = icon as HTMLButtonElement;
     }
 
     updateFavoriteIcon(cardId: string, isFavorite: boolean): void {
         if (isFavorite) {
-            this.favoriteIconElement.classList.add('favorite');
+            this.favoriteIconElement.classList.add('isCardFavorite');
         } else {
-            this.favoriteIconElement.classList.remove('favorite');
+            this.favoriteIconElement.classList.remove('isCardFavorite');
         }
     }
 }
