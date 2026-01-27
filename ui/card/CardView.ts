@@ -36,4 +36,8 @@ export class CardView {
     isCardFlipped(): boolean {  
         return this.isFlipped;
     }
+
+    getFavoriteButton(): HTMLElement {
+        return this.getElement('#favoriteBtn');
+    }
 }

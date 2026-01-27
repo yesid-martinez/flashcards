@@ -46,11 +46,6 @@ body {
   }
 }
 
-/* Do an horizontal flip when you move the mouse over the card container */
-/* .cardContainer:hover .card {
-  transform: rotateY(180deg);
-} */
-
 .flipped {
   transform: rotateY(180deg);
 }
@@ -86,24 +81,35 @@ body {
     transform: rotateY(180deg);
 }
 
-button {
+#cardButtons {
+    display: flex;
+    gap: 6px;
+}
+
+#nextBtn, #favoriteBtn {
     margin-top: 20px;
+    border-radius: 8px;
+}
+
+#nextBtn {
     padding: 10px 20px;
     border: none;
-    border-radius: 8px;
-    background-color: #3f9d44;;
-    color: white;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     -webkit-tap-highlight-color: transparent;
 
-    &:hover {
-        background-color: #358539;
-    }
+    background-color: #3f9d44;;
+    color: white;
+}
 
-    transition: background-color 0.3s;
+#favoriteBtn {
+    color: #bbbaba;
+    border: 1px solid #bbbaba;
+    font-size: 1.4rem;
+    padding: 4px;
+    /* border-radius: 50%; */
 }
 
 @media (min-width: 525px) {
@@ -118,9 +124,28 @@ button {
         }
     }
 
-    button {
-        margin-top: 1.5rem;
-        font-size: 1.3rem;
+    #cardButtons {
+        width: 500px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nextBtn {
+        &:hover {
+            background-color: #358539;
+        }
+        
+        transition: background-color 0.3s;
+    }
+
+    #favoriteBtn {
+        &:hover {
+            background-color: yellow;
+            color: rgb(178, 178, 42);
+            border: 1px solid rgb(178, 178, 42);
+            transition: background-color 0.3s;
+        }
     }
 }
 
@@ -142,8 +167,14 @@ button {
         }
     }
     
-    button{
+    button {
         margin-top: 16px;
         font-size: 18px;   
     }
+}
+
+.isCardFavorite {
+    background-color: yellow;
+    color: rgb(178, 178, 42) !important;
+    border: 1px solid rgb(178, 178, 42);
 }
